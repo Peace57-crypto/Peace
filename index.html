@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEKAI'ZONE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("gt.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: gray;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .game-cards {
+            display: flex;
+            gap: 20px; 
+            justify-content: center; 
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+        }
+        .card .info {
+            padding: 15px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #0056b3;
+        }
+        .card p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .card .price {
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .card button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .card button:hover {
+            background-color: #003d82;
+        }
+        footer {
+            text-align: center;
+            background-color: gray;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SEKAI'ZONE</h1>
+        <p>Trouvez les meilleurs jeux à prix adorables</p>
+    </header>
+    <div class="container">
+        <div class="game-cards">
+            <div class="card">
+                <img src="civilisation.jpeg" alt="Jeu de stratégie">
+                <div class="info">
+                    <h2>Jeux de stratégie</h2>
+                    <p>Testez votre intelligence</p>
+                    <p class="price">15$FCFA</p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="nnk.jpg" alt="Jeu d'aventure">
+                <div class="info">
+                    <h2>Jeux d'Aventure</h2>
+                    <p>Plongez dans un monde magique!</p>
+                    <p class="price">25$</p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ju.jpg" alt="Jeu RPG">
+                <div class="info">
+                    <h2>Jeux RPG</h2>
+                    <p>Vivez une aventure épique!</p>
+                    <p class="price">450$</p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 SEKAI'ZONE. Tous droits réservés.
+    </footer>
+</body>
+</html>
